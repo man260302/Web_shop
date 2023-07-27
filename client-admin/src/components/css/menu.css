@@ -1,0 +1,134 @@
+.logo-image {
+  width: 151px;
+  height: 165px;
+  margin-top: -68px;
+  margin-left: -1679px;
+  padding-top: 25px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.navMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #e07912;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #fddb3a;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+div.border-bottom {
+  padding: 49px 133px 0px 262px;
+  background-color:#f8f6f6;
+ 
+}
+
+.navigation-right {
+  float: left;
+  margin-left: 1334px;
+}
+.fa-pull-left{
+  margin-left:700px;
+  margin-top: -25px;
+  
+}
+.fa-stack {
+    display: inline-block;
+    height: 5em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    color: #385898;
+    margin-left: 1152px;
+    width: 2.5em;
+    margin-top: -40px;
+    margin-left: 1258px;
+}
+.text-fb{
+  margin-left:825px;
+}
+
+
+.custom-icon {
+  font-size: 69px;
+  color: #385898;
+  margin-left: 93px;
+  margin-top: 0px;
+}
+.custom-phone {
+  font-size: 69px;
+  color: #385898;
+  margin-left: 93px;
+  margin-top: 0px;
+}
+/* CSS cho định dạng icon */
+.logout-icon {
+  font-size: 24px; /* Kích thước của icon */
+  color: red; /* Màu sắc của icon */
+  /* Thêm các thuộc tính khác của Font Awesome nếu bạn muốn tùy chỉnh thêm */
+  margin-left: 10px;
+}

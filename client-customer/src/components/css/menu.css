@@ -1,0 +1,212 @@
+.logo-cus {
+    width: 108px;
+    height: 122px;
+    margin-top: -68px;
+    margin-left: -800px;
+    padding-top: 18px;
+  }
+.float-right {
+    margin-top: -63px;
+    margin-left: 411px;
+
+}
+div.border-menu-cus {
+  
+  padding: 10px 7px 18px 243px;
+ 
+  background-color:#fcfcfc;
+  height: 140px;
+  display: flex; /* Sử dụng flexbox */
+ 
+}
+.float-right-cart {
+  margin-top: -150px;
+  margin-left: 1300px;
+  padding-bottom: 65px;
+}
+input.keyword {
+  width: 741px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-left: -129px;
+  margin-top: 108px;
+  background-color: #e2dfdf;
+}
+.submit {
+  margin-left: -8px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  width: 119px;
+  background-color: #e2dfdf;
+}
+.form {
+  color: aqua;
+}
+.logo-image-cus {
+  margin-top: -113px;
+  width: 195px;
+  margin-left: -1071px;
+  height: 195px;
+}
+div.float-left-cus {
+  border-bottom: 1px solid #FFF;
+  padding: 29px 133px 18px 243px;
+  background-color:rgb(10, 10, 10);
+  color: #070707;
+
+}
+div.float-left {
+  float: left;
+}
+.text-color{
+  color: #0e0d0d;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+}
+.text-color-cart{
+  color: #0e0d0d;
+  text-decoration: none;
+  font-size: 30px;
+}
+.menu-cus{
+  color: #FFF;
+  margin-top: 75px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu-cus-w {
+  color: #FFF;
+  margin-top: 81px;
+  margin-left: 49px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login {
+  margin-left: 1300px;
+  margin-top: -57px;
+  
+}
+.product-id{
+  display: none;
+}
+.table-right{
+  margin-top:-153px;
+  margin-left: 138px;
+  font-weight: bold;
+}
+.image-sp{
+  margin-top: -132px;
+  z-index: -1;
+}
+.submit-buy {
+  width: 254px;
+  height: 40px;
+  background-color: rgb(14, 13, 13);
+  border-color: #FFF;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: -108px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-buy::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+ 
+}
+
+.submit-buy:hover {
+  background-color: #FFF; /* Màu trắng */
+  color: #070707;
+}
+
+.text-price{
+  color: #c0c0c0;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.text-price-x {
+  text-align: center;
+  color: #070707;
+  font-weight: bold;
+}
+.text-x-r {
+  color: #c0c0c0;
+  text-decoration: line-through;
+  font-weight: bold;
+  margin-left: -115px;
+}
+
+
+/* Form and DataTable Styling */
+.datatable-form {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.datatable th,
+.datatable td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.datatable th {
+  background-color: #0c0c0c;
+  font-weight: bold;
+  color: #dcfcfc;
+}
+
+.datatable tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.datatable tbody tr:hover {
+  background-color: #e6e6e6;
+}
+.logo-image-cart{
+  width: 426px;
+  margin-left: 20px;
+}
+.content-box {
+  border-bottom: 1px ;
+}
+.blank-slate {
+  white-space: pre-line;
+  text-align: center;
+  margin-left: 466px;
+  margin-top: -511px;
+  border: 1px solid #ccc;
+  padding: 30px;
+}
+span.check-out {
+  cursor: pointer;
+  color: white;
+  margin-left: 1053px;
+  display: inline-block;
+  background-color: #0c0c0c;
+  padding: 1.4em 1.7em;
+  border-radius: 4px;
+  margin-top: 20px;
+  
+}

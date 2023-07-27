@@ -1,0 +1,100 @@
+/* datatable.css */
+.datatable {
+    text-align: center;
+    margin-left: 200px;
+    
+  }
+.color-table{
+    background-color: darkslategray;
+    color: aliceblue;
+   
+  
+}
+  /* header */
+  
+.float-left {
+    width: 700px;
+    margin-left: 80px;
+  }
+.beside {
+    width: 500px;
+    margin-left: 1110px;
+    margin-top: -415px;
+}
+.datatable-1 {
+	border-top: 5px solid ;
+	padding: 29px;
+	background-color: darkslategray;
+    color: aliceblue;
+    margin-left:90px;
+	
+}
+
+.background-detail {
+    width: 100%;
+    height: 1260px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1444927714506-8492d94b4e3d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=067f0b0…);
+    background-size:100%;
+    background-position: center center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+div.Nav-Menu {
+  border-bottom: 0px solid #FFF;
+  padding: 18px 133px 18px 243px;
+  background-color: rgb(10, 10, 10);
+  color: #070707;
+}
+
+.x-tr-tr{
+	color: #f1f1f1;
+	text-decoration: none;
+	font-weight: bold;	
+}
+.add-sub{
+  width: 96px;
+  height: 50px;
+  margin-right: 10px;
+  border:none;
+  background-color:#15940a;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.add-up{
+  width: 96px;
+  height: 50px;
+  margin-right: 10px;
+  border:none;
+  background-color:#4f11e2;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.add-del{
+  width: 96px;
+  height: 50px;
+  margin-right: 10px;
+  border:none;
+  background-color:#ee140d;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.add-id{
+  width: 286px;
+  height: 50px;
+  border-radius: 5px;
+  border:none;
+}
+.text-cate {
+  text-align: center;
+  line-height: 77px;
+  margin-left: 153px;
+}

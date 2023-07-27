@@ -1,0 +1,9 @@
+div.float-right {
+    float:right;
+    margin-left: -80;
+   
+  }
+.beside{
+    float: left;
+    margin-left: 600px;
+}

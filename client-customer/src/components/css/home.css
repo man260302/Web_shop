@@ -1,0 +1,46 @@
+body{
+    background-color: #fff;
+    background-size: 100%;
+   
+    font-size: 16px;
+}
+@keyframes marquee {
+    20% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .marquee-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px; /* Khoảng cách với các phần tử khác ở trái và phải */
+    background-color: black;
+    color: #fff;
+
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    animation: marquee 30s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .marquee-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+ 
+  .marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 30s linear infinite;
+   
+  }
+
+  

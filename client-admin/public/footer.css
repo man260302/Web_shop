@@ -1,0 +1,14 @@
+.black-footer {
+    background-color: #000; /* Màu nền đen */
+    color: #fff; /* Màu chữ trắng */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Đặt margin-top là "auto" để đẩy footer xuống dưới cùng */
+  }
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Đảm bảo rằng body có chiều cao ít nhất là 100% chiều cao của viewport */
+    display: flex;
+    flex-direction: column;
+}
