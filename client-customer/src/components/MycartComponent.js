@@ -4,7 +4,6 @@ import CartUtil from '../utils/CartUtil';
 import axios from 'axios';
 import withRouter from '../utils/withRouter';
 
-
 class Mycart extends Component {
   static contextType = MyContext; // using this.context to access global state
   constructor(props) {
@@ -154,6 +153,5 @@ class Mycart extends Component {
 
 
 }
-
 
 export default withRouter(Mycart);
