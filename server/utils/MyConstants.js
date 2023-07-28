@@ -1,6 +1,6 @@
 const MyConstants = {
-    DB_SERVER: 'webshop.wdvmiv8.mongodb.net',
-    DB_USER: 'Man2603',
+    DB_SERVER: 'sneaker.tck3h3k.mongodb.net',
+    DB_USER: 'sneaker',
     DB_PASS: '12345',
     DB_DATABASE: 'shoppingonline',
     EMAIL_USER: 'ngminhman2603@gmail.com', // Microsoft mail service
